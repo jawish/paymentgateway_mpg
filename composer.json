@@ -1,0 +1,22 @@
+{
+    "name": "jawish/paymentgateway_mpg",
+    "type": "library",
+    "description": "BML Maldives Payment Gateway processing.",
+    "keywords": ["bml", "mpg", "maldives", "payment", "gateway"],
+    "license": "MIT",
+    "authors": [
+    	{
+    		"name": "Jawish Hameed",
+    		"email": "jawish@gmail.com",
+    		"homepage": "http://jawish.org"
+    	}
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Jawish\\PaymentGatewayMpg\\": "src/"
+    	}
+    }
+}
